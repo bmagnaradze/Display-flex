@@ -1,0 +1,22 @@
+.logo{
+	width: 100px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background-color: black;*/
+}
+.navigation-ul{
+	display: flex;
+	list-style-type: none;
+}
+a{
+	font-size: 30px;
+	color: red;
+	text-decoration: none !important;
+
+}
+.navigation-li{
+	margin-right: 10px;
+}
