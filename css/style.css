@@ -15,7 +15,6 @@ a{
 	font-size: 30px;
 	color: red;
 	text-decoration: none !important;
-
 }
 .navigation-li{
 	margin-right: 10px;
@@ -36,7 +35,6 @@ a{
 /*img{
 	width: 100%;
 	
-
 }*/
 .image-wraper{
 	margin-right: 30px;
@@ -70,6 +68,19 @@ left: 0;
 	height: 600px;
 	background:red;
 	position: relative;
+	transition: background-color .3s linear ;
+	animation: mymove .5s infinite ;
+}
+
+.box:hover{
+	background-color: blue;
+}
+.box:hover .wraper-box3{
+	background-color:pink;
+	transform: rotate(45deg);
+}
+.wraper-box1:hover{
+	background-color:black;
 }
 .wraper-box1{
 	width: 300px;
@@ -109,3 +120,10 @@ left: 0;
 	right: 20px;
 
 }
+
+
+
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: yellow;}
